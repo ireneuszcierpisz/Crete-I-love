@@ -1,0 +1,20 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=Flamenco&display=swap');
+
+</style>* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f161c;
+}
+
+/* Headings and logo */
+
+h1,
+h2 {
+    font-family: Flamenco, sans-serif;
+    color: #34393d;
+}
