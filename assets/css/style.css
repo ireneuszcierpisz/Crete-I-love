@@ -54,3 +54,61 @@ h2 {
 #menu {
     line-height: 70px;
 }
+
+#menu a:hover {
+    border-bottom: 1px solid #191970;
+}
+
+.displayed-on {
+    border-bottom: 1px solid #34393d;
+}
+
+hr {
+    width: 100%;
+}
+
+/*welcome images and cover text*/
+
+#img1-outer {
+    height: 600px;
+    width: 65%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+#img1-div {
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/01-Greece-restaurant.jpg");
+}
+
+#img2-outer {
+    height: 600px;
+    width: 35%;
+    overflow: hidden;
+    position: relative;
+    float: right;
+}
+
+#img2-div {
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/02_ca1600BC-sword.jpg");
+}
+
+#img1-cover-text {
+    font-size: 120%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 350px;
+    height: 320;
+    padding: 20px;
+
+    bottom: 80px;
+    right: 300px;
+
+    position: absolute;
+
+    background-color: rgba(176, 224, 230, 0.6);
+}
