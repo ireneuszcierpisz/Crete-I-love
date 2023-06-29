@@ -1,6 +1,6 @@
-<style>@import url('https://fonts.googleapis.com/css2?family=Flamenco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flamenco&display=swap');
 
-</style>* {
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -17,4 +17,40 @@ h1,
 h2 {
     font-family: Flamenco, sans-serif;
     color: #34393d;
+}
+
+#logo {
+    font-size: 200%;
+    margin-left: 40px;
+}
+
+#logo-ellipse {
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 15px;
+    padding: 5px;
+    width: 220px;
+    height: 35px;
+    float: left;
+    position: relative;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo-ellipse a {
+    text-decoration: none;
+}
+
+#menu {
+    line-height: 70px;
 }
