@@ -47,41 +47,41 @@
         <form class="form" action="https://formdump.codeinstitute.net/" method="post">
             <h2>Why not meet other lovers of Crete on Crete?</h2>
 
-            <div>
+            <div class="input-div">
                 <label for="name">Your Name</label>
                 <input id="name" type="text" name="name" required class="text-input">
                 <label for="email">Your Email</label>
                 <input id="email" type="email" name="email" required class="text-input">
             </div>
 
-            <div>
-                <h3>What are you most interested in?</h3>
+            <div class="input-div">
+                <h2>What are you most interested in?</h2>
                 <label for="holidays">Your favorite type of holidays</label>
-                <select id="holidays" name="holidays-type" class="dropdown-list">
+                <select id="holidays" name="holidays-type" class="text-input">
                     <option value="city-break">City Break</option>
                     <option value="beach-leisure">Beach Leisure</option>
                     <option value="museums-archaeosite">Museums and Archaeological Sites</option>
                 </select>
             </div>
 
-            <div>
-                <h3>Which place do you like the best?</h3>
+            <div class="input-div">
+                <h2>Which place do you like the best?</h2>
                 <label for="fav-site">What is your favorite place?</label>
-                <input id="fav-site" type="text" list="archaeo-sites" name="fav-site">
+                <input id="fav-site" type="text" list="archaeo-sites" name="fav-site" class="text-input">
                 <datalist id="archaeo-sites">
                     <option value="Phaistos"></option>
                     <option value="Knossoss"></option>
                 </datalist>
             </div>
 
-            <div>
-                <h3>Where are you going to meet us?</h3>
+            <div class="input-div">
+                <h2>Where are you going to meet us?</h2>
                 <label for="kalimari">Kalimari</label>
-                <input type="radio" id="kalimari" name="meetup-preference" value="kalimari" required>
+                <input type="radio" id="kalimari" name="meetup-preference" value="kalimari" required class="text-input">
                 <label for="chania">Chania</label>
-                <input type="radio" id="chania name=" meetup-preference" value="chania required>
+                <input type="radio" id="chania name=" meetup-preference" value="chania" required class="text-input">
                 <label for=" phaistos">Phaistos</label>
-                <input type="radio" id="phaistos" name="meetup-preference" value="phaistos" required>
+                <input type="radio" id="phaistos" name="meetup-preference" value="phaistos" required class="text-input">
             </div>
 
             <input class="submit-button" type="submit" value="I'm in!">

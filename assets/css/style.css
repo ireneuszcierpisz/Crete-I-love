@@ -80,7 +80,9 @@ hr {
 #img1-div {
     height: 500px;
     width: 100%;
-    background-image: url("../images/01-Greece-restaurant.jpg");
+    background-image: url("../images/01-Greece-restaurant3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #img1-cover-text {
@@ -111,7 +113,7 @@ hr {
 #img2-div {
     height: 700px;
     width: 100%;
-    background-image: url("../images/02_ca1600BC-sword.jpg");
+    background-image: url("../images/02_ca1600BC-sword2.jpg");
 }
 
 #img2-cover-text {
@@ -209,4 +211,46 @@ footer {
     padding-right: 5%;
     font-size: 200%;
     color: #3f3a3a;
+}
+
+/* meetup form section */
+
+.meetup-form {
+    height: 800px;
+    background-image: url("../images/form-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    color: whitesmoke;
+    background-color: rgba(176, 224, 230, 0.2);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    max-width: 80%;
+    left: 15%;
+    position: absolute;
+}
+
+.form>h2 {
+    margin-bottom: 30px;
+    font-size: 250%;
+}
+
+.text-input {
+    background: transparent;
+    color: rgb(41, 76, 116);
+    width: 70%;
+    height: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 5px 0 15px 0;
+    border: 1px solid #fafafa;
+    border-radius: 50%;
+}
+
+.input-div {
+    width: 600px;
+    border: solid red 2px;
 }
