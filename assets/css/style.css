@@ -331,3 +331,17 @@ fieldset>h2 {
 .submit-button:hover {
     background-color: blue;
 }
+
+/* gallery section */
+
+#pictures {
+    column-count: 3;
+    column-gap: 0;
+    grid-row: auto;
+    row-gap: 0;
+    clear: both;
+}
+
+#pictures img {
+    width: 100%;
+}
