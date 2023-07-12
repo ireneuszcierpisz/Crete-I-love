@@ -6,6 +6,10 @@
     border: 0;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #0f161c;
@@ -17,6 +21,7 @@ h1,
 h2 {
     font-family: Flamenco, sans-serif;
     color: #34393d;
+    font-size: 2rem;
 }
 
 #logo {
@@ -165,6 +170,7 @@ hr {
     width: 100%;
     height: 200px;
     position: relative;
+    overflow: auto;
 }
 
 article {
@@ -222,6 +228,10 @@ footer {
     background-position: center;
 }
 
+.meetup-form h2 {
+    margin-left: 20%;
+}
+
 .form {
     color: whitesmoke;
     background-color: rgba(176, 224, 230, 0.2);
@@ -229,28 +239,81 @@ footer {
     margin-bottom: 50px;
     padding: 20px;
     max-width: 80%;
-    left: 15%;
+    left: 5%;
     position: absolute;
 }
 
 .form>h2 {
     margin-bottom: 30px;
-    font-size: 250%;
+    font-size: 200%;
 }
 
 .text-input {
     background: transparent;
     color: rgb(41, 76, 116);
-    width: 70%;
-    height: 20px;
+    width: 15rem;
+    height: 2rem;
     padding-left: 20%;
-    padding-right: 20%;
+    padding-right: 0%;
     margin: 5px 0 15px 0;
     border: 1px solid #fafafa;
     border-radius: 50%;
 }
 
-.input-div {
-    width: 600px;
-    border: solid red 2px;
+#input-name {
+    float: left;
+}
+
+#input-mail {
+    float: right;
+}
+
+input[type=text],
+input[type=email] {
+    margin: 0 auto;
+}
+
+input[type=radio] {
+    margin-left: 2rem;
+}
+
+fieldset {
+    margin-bottom: 2rem;
+}
+
+fieldset>h2 {
+    font-size: 1.5rem;
+    margin-left: 45%;
+}
+
+#meeting-place {
+    display: inline-block;
+}
+
+#meeting-place div {
+    width: auto;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+#meeting-place div label {
+    font-size: 1.5rem;
+    color: gold;
+}
+
+.submit-button {
+    width: 10rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: rgb(153, 153, 230);
+    border: solid white 1px;
+    margin: 0 30rem;
+    padding: 4px;
+    font-size: 2rem;
+    font-family: Flamenco, sans-serif;
+}
+
+.submit-button:hover {
+    background-color: blue;
 }

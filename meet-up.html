@@ -47,14 +47,19 @@
         <form class="form" action="https://formdump.codeinstitute.net/" method="post">
             <h2>Why not meet other lovers of Crete on Crete?</h2>
 
-            <div class="input-div">
-                <label for="name">Your Name</label>
-                <input id="name" type="text" name="name" required class="text-input">
-                <label for="email">Your Email</label>
-                <input id="email" type="email" name="email" required class="text-input">
-            </div>
+            <fieldset>
+                <h2>Contact data</h2>
+                <div id="input-name">
+                    <label for="name">Your Name</label>
+                    <input id="name" type="text" name="name" required class="text-input">
+                </div>
+                <div id="input-mail">
+                    <label for="email">Your Email</label>
+                    <input id="email" type="email" name="email" required class="text-input">
+                </div>
+            </fieldset>
 
-            <div class="input-div">
+            <fieldset>
                 <h2>What are you most interested in?</h2>
                 <label for="holidays">Your favorite type of holidays</label>
                 <select id="holidays" name="holidays-type" class="text-input">
@@ -62,9 +67,9 @@
                     <option value="beach-leisure">Beach Leisure</option>
                     <option value="museums-archaeosite">Museums and Archaeological Sites</option>
                 </select>
-            </div>
+            </fieldset>
 
-            <div class="input-div">
+            <fieldset>
                 <h2>Which place do you like the best?</h2>
                 <label for="fav-site">What is your favorite place?</label>
                 <input id="fav-site" type="text" list="archaeo-sites" name="fav-site" class="text-input">
@@ -72,19 +77,27 @@
                     <option value="Phaistos"></option>
                     <option value="Knossoss"></option>
                 </datalist>
-            </div>
+            </fieldset>
 
-            <div class="input-div">
+            <fieldset id="meeting-place">
                 <h2>Where are you going to meet us?</h2>
-                <label for="kalimari">Kalimari</label>
-                <input type="radio" id="kalimari" name="meetup-preference" value="kalimari" required class="text-input">
-                <label for="chania">Chania</label>
-                <input type="radio" id="chania name=" meetup-preference" value="chania" required class="text-input">
-                <label for=" phaistos">Phaistos</label>
-                <input type="radio" id="phaistos" name="meetup-preference" value="phaistos" required class="text-input">
-            </div>
+                <div>
+                    <label for="kalimari">Kalimari</label>
+                    <input type="radio" id="kalimari" name="meetup-preference" value="kalimari" required>
+                </div>
+                <div>
+                    <label for="chania">Chania</label>
+                    <input type="radio" id="chania name=" meetup-preference" value="chania" required>
+                </div>
+                <div>
+                    <label for=" phaistos">Phaistos</label>
+                    <input type="radio" id="phaistos" name="meetup-preference" value="phaistos" required>
+                </div>
+            </fieldset>
 
-            <input class="submit-button" type="submit" value="I'm in!">
+            <div>
+                <input class="submit-button" type="submit" value="I'm in!">
+            </div>
         </form>
     </section>
 
