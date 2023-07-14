@@ -137,7 +137,7 @@ hr {
     background-color: rgba(176, 224, 230, 0.6);
 }
 
-/*meetup section */
+/*meetings dates section */
 
 #meetup-dates {
     width: 70%;
@@ -249,12 +249,11 @@ footer {
 .form {
     color: whitesmoke;
     background-color: rgba(176, 224, 230, 0.2);
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 20px;
+    padding: 2%;
     max-width: 80%;
+    height: 90%;
     left: 5%;
-    position: absolute;
+    position: relative;
 }
 
 .form>h2 {
@@ -316,16 +315,22 @@ fieldset>h2 {
     color: gold;
 }
 
+/* #submit-div {
+    width: fit-content;
+    border: solid red 1px;
+} */
+
 .submit-button {
     width: 10rem;
     height: 3.5rem;
     border-radius: 50%;
     background-color: rgb(153, 153, 230);
     border: solid white 1px;
-    margin: 0 30rem;
+    margin-left: 40%;
     padding: 4px;
     font-size: 2rem;
     font-family: Flamenco, sans-serif;
+    display: block;
 }
 
 .submit-button:hover {
@@ -344,4 +349,112 @@ fieldset>h2 {
 
 #pictures img {
     width: 100%;
+}
+
+/* media screen */
+
+/* for screen size 950px to 1200px */
+
+@media screen and (max-width: 1200px) {
+    #img1-cover-text {
+        right: 100px;
+        width: auto;
+    }
+
+    #img2-cover-text {
+        left: 20px;
+        width: 220px;
+    }
+}
+
+/* for screen size  800 to 950px */
+
+@media screen and (max-width: 950px) {
+    #img1-cover-text {
+        font-size: 100%;
+        right: 60px;
+        bottom: 50%;
+    }
+
+    #img2-cover-text {
+        font-size: 80%;
+        width: 200px;
+        padding: 5px;
+        left: 15px;
+        text-align: center;
+    }
+
+    .form {
+        margin-left: 1.5rem;
+    }
+
+    .form>h2 {
+        font-size: 220%;
+        text-align: left;
+        margin-left: 4px;
+    }
+
+    fieldset label {
+        font-size: 1.5rem;
+    }
+
+    fieldset>h2 {
+        font-size: 2rem;
+    }
+
+    #input-name {
+        float: right;
+    }
+
+    #input-mail {
+        float: left;
+    }
+
+    #holidays {
+        margin-left: 5px;
+    }
+
+    #meeting-place>div>label {
+        font-size: 1.7rem;
+    }
+
+    input[type=radio] {
+        margin-left: 1rem;
+    }
+}
+
+/* for screen size 800px and down */
+
+@media screen and (max-width: 800px) {
+    #pictures {
+        column-count: 2;
+    }
+
+
+    #meeting-place div {
+        width: 5rem;
+    }
+
+    .form>h2 {
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+
+    fieldset>h2 {
+        font-size: 1.5rem;
+    }
+
+    #meeting-place>div>label {
+        font-size: 1.3rem;
+    }
+
+    .submit-button {
+        display: block;
+        position: absolute;
+        left: 10px;
+        width: 150px;
+        margin-right: 100px;
+    }
+
+
 }
