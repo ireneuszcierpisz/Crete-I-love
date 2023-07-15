@@ -26,7 +26,9 @@ h2 {
 
 #logo {
     font-size: 200%;
-    margin-left: 40px;
+    margin-top: 0.3rem;
+    text-align: center;
+    display: block;
 }
 
 #logo-ellipse {
@@ -35,10 +37,9 @@ h2 {
     margin-top: 8px;
     margin-left: 15px;
     padding: 5px;
-    width: 220px;
+    width: 14rem;
     height: 35px;
     float: left;
-    position: relative;
 }
 
 #menu li {
@@ -57,7 +58,7 @@ h2 {
 }
 
 #menu {
-    line-height: 70px;
+    line-height: 5rem;
 }
 
 #menu a:hover {
@@ -88,6 +89,7 @@ hr {
     background-image: url("../images/01-Greece-restaurant3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 #img1-cover-text {
@@ -95,11 +97,12 @@ hr {
     text-transform: uppercase;
     letter-spacing: 4px;
     width: 500px;
-    height: 280;
-    padding: 20px;
+    height: auto;
+    padding: 10px;
 
     bottom: 80px;
     right: 200px;
+    left: 10px;
 
     position: absolute;
 
@@ -119,18 +122,21 @@ hr {
     height: 700px;
     width: 100%;
     background-image: url("../images/02_ca1600BC-sword2.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 #img2-cover-text {
     font-size: 100%;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    width: 250px;
-    height: 320;
-    padding: 10px;
+    letter-spacing: 3px;
+    width: auto;
+    height: auto;
+    padding: 5px;
 
-    top: 150px;
-    left: 30px;
+    top: 160px;
+    left: 16px;
+    right: 16px;
 
     position: absolute;
 
@@ -152,6 +158,7 @@ hr {
     float: right;
     text-align: center;
     margin: 1px 0 px 0;
+    padding-top: 20px;
 }
 
 #meetup-dates>div>h2,
@@ -162,16 +169,21 @@ h3 {
 #phaistos-box {
     background-image: url("../images/crete-phaistos3.JPG");
     background-size: cover;
+    background-position: center;
 }
 
 #kamilari-box {
     border-left: solid 1px black;
     border-right: solid 1px black;
     background-image: url("../images/greek-restaurant1.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 #chania-box {
     background-image: url("../images/greek-street1a.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 hr {
@@ -185,23 +197,23 @@ hr {
     height: 250px;
     position: relative;
     overflow: auto;
+    clear: both;
 }
 
 article {
     width: 60%;
-    height: auto;
-    overflow: hidden;
+    height: 280px;
     padding: 2%;
     text-align: center;
     background-color: aqua;
-    margin: 5px;
+    margin: 0;
 }
 
 aside {
-    width: 25%;
-    height: auto;
-    padding: 25px;
-    margin: 15px;
+    width: 32%;
+    height: 244px;
+    padding: 15px 15px 2px;
+    margin: 0;
     float: right;
 
     text-align: left;
@@ -315,18 +327,13 @@ fieldset>h2 {
     color: gold;
 }
 
-/* #submit-div {
-    width: fit-content;
-    border: solid red 1px;
-} */
-
 .submit-button {
     width: 10rem;
     height: 3.5rem;
     border-radius: 50%;
     background-color: rgb(153, 153, 230);
     border: solid white 1px;
-    margin-left: 40%;
+    margin-left: 20%;
     padding: 4px;
     font-size: 2rem;
     font-family: Flamenco, sans-serif;
@@ -357,13 +364,13 @@ fieldset>h2 {
 
 @media screen and (max-width: 1200px) {
     #img1-cover-text {
-        right: 100px;
+        right: 70px;
         width: auto;
     }
 
     #img2-cover-text {
         left: 20px;
-        width: 220px;
+        width: auto;
     }
 }
 
@@ -372,16 +379,13 @@ fieldset>h2 {
 @media screen and (max-width: 950px) {
     #img1-cover-text {
         font-size: 100%;
-        right: 60px;
+        right: 100px;
         bottom: 50%;
     }
 
     #img2-cover-text {
         font-size: 80%;
-        width: 200px;
-        padding: 5px;
-        left: 15px;
-        text-align: center;
+        right: 15px;
     }
 
     .form {
@@ -430,31 +434,89 @@ fieldset>h2 {
         column-count: 2;
     }
 
+    html {
+        font-size: 12px;
+    }
 
     #meeting-place div {
         width: 5rem;
     }
 
+    input[type=radio] {
+        margin-left: 1rem;
+    }
+
     .form>h2 {
         margin-bottom: 2rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     fieldset>h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    fieldset label {
+        font-size: 0.8rem;
     }
 
     #meeting-place>div>label {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
-    .submit-button {
-        display: block;
-        position: absolute;
-        left: 10px;
-        width: 150px;
-        margin-right: 100px;
+    #menu {
+        line-height: 3rem;
     }
 
+    #img1-outer {
+        width: 60%;
+    }
 
+    #img2-outer {
+        width: 40%;
+    }
+
+    #img1-cover-text {
+        font-size: 70%;
+        right: 15px;
+        bottom: 50%;
+    }
+
+    #img2-cover-text {
+        font-size: 60%;
+        right: 5px;
+        left: 5px;
+    }
+
+    #img2-cover-text>h2 {
+        font-size: 1.1rem;
+    }
+
+    #img2-cover-text>h3 {
+        font-size: 80%;
+    }
+
+    #img2-outer {
+        height: 500px;
+    }
+
+    #img2-div {
+        height: 500px;
+    }
+
+    #meetup-dates {
+        width: 100%;
+    }
+
+}
+
+/* for screen size 400px and down */
+
+@media screen and (max-width: 400px) {
+    article {
+        height: auto;
+    }
+
+    aside {
+        height: auto;
+    }
 }
