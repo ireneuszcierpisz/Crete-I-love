@@ -16,21 +16,21 @@
 
 <body>
     <header>
-        <div id="logo-ellipse">
-            <a href="index.html">
+        <div id="logo-ellipse" aria-label="Logo: Crete I Love">
+            <a href="index.html" aria-label="Jump to the Home Page">
                 <h1 id="logo">Crete I Love</h1>
             </a>
         </div>
         <nav>
             <ul id="menu">
                 <li>
-                    <a class="displayed-on" href="meet-up.html">Meet Up</a>
+                    <a class="displayed-on" href="meet-up.html" aria-label="You are at Meet Up Form">Meet Up</a>
                 </li>
                 <li>
-                    <a href="gallery.html">Gallery</a>
+                    <a href="gallery.html" aria-label="Jump to the Gallery">Gallery</a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" aria-label="Jump to the Home Page">Home</a>
                 </li>
             </ul>
         </nav>
@@ -40,7 +40,7 @@
 
     <!--form section-->
 
-    <section class="meetup-form">
+    <section class="meetup-form" aria-label="Give your contact details and choose a meeting place">
         <form class="form" action="https://formdump.codeinstitute.net/" method="post">
             <h2>Why not meet other lovers of Crete on Crete?</h2>
 
@@ -59,7 +59,7 @@
             <fieldset id="holiday-type">
                 <h2>What are you most interested in?</h2>
                 <label for="holidays">Your favorite type of holidays</label>
-                <select id="holidays" name="holidays-type" class="text-input">
+                <select id="holidays" name="holidays-type" class="text-input" aria-label="Select Holiday Type">
                     <option value="city-break">City Break</option>
                     <option value="beach-leisure">Beach Leisure</option>
                     <option value="museums-archaeosite">Artefacts</option>
@@ -70,7 +70,7 @@
                 <h2>Which place do you like the best?</h2>
                 <label for="fav-site">What is your favorite place?</label>
                 <input id="fav-site" type="text" list="archaeo-sites" name="fav-site" class="text-input">
-                <datalist id="archaeo-sites">
+                <datalist id="archaeo-sites" aria-label="Choose your favorite Archaeo Site">
                     <option value="Phaistos"></option>
                     <option value="Knossoss"></option>
                 </datalist>
@@ -92,7 +92,7 @@
                 </div>
             </fieldset>
 
-            <input class="submit-button" type="submit" value="I'm in!">
+            <input class="submit-button" type="submit" value="I'm in!" aria-label="Submit button: I Am In">
 
         </form>
     </section>
@@ -102,7 +102,7 @@
             <li>
                 <div>
                     <a href="https://facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i
+                        aria-label="Go to our Facebook page (opens in a new tab)"><i
                             class="fa-brands fa-facebook"></i></a>
                 </div>
             </li>
@@ -110,14 +110,14 @@
             <li>
                 <div>
                     <a href="https://youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit our YouTube page (opens in a new tab)"><i
+                        aria-label="Go to our YouTube page (opens in a new tab)"><i
                             class="fa-brands fa-square-youtube"></i></a>
                 </div>
             </li>
             <li>
                 <div>
                     <a href="https://instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        aria-label="Go to our Instagram page (opens in a new tab)"><i
                             class="fa-brands fa-instagram"></i></a>
                 </div>
             </li>
