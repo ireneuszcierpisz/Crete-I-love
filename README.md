@@ -1,10 +1,10 @@
-![Crete I Love logo](logo.png)
+![Crete I Love logo](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/logo.png)
 
 # Crete I Love
 
 Crete I Love is a site that hopes to help people who are keen on ancient history of Crete and love to be on this island, to meet up for chating and and socialize to enjoy holidays in just that part of Greece. Crete I Love is also for me to show people what I am passionate in.
 
-[Picture of the site here]()
+[Picture of the site here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/home-ipad.png)
 
 ### Features
 
@@ -16,15 +16,15 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 - Navigation bar is identical in each page to allow for easy navigation.
 - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-Picture of the navigation bar here (link to media folder):
+[Picture of the navigation bar here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/navigation-bar.png):
 
-##### The landing page image
+##### The landing images
 
 - The landing includes a photograph with text overlay to allow the user to see exactly what is this website about.
 - This section introduces the user to Love Crete as my private website as a tourist and fan of a specific part of ancient history
 - The right landing picture animation should grab users attention
 
-[Picture of the landing page here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/home-ipad.png)
+[Picture of the landing images here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/landing-images.png)
 
 ##### Meet Up Times Section
 
@@ -32,7 +32,7 @@ Picture of the navigation bar here (link to media folder):
 - This section will allow the user to see exactly when the meetups will happen and where that will be located.
 - Hope the user will see here the value of filing up a form for lovers of Crete meetups.
 
-[Picture of the meet up times section here]()
+[Picture of the meet up times section here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-times.png)
 
 ##### The Footer
 
@@ -40,7 +40,7 @@ Picture of the navigation bar here (link to media folder):
 - The links will open to a new tab to allow easy navigation for the user.
 - The footer is valuable to the user as it encourages them to keep connected via social media
 
-[Picture of footer here]()
+[Picture of footer here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/footer.png)
 
 ### Gallery Page
 
