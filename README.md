@@ -4,7 +4,7 @@
 
 Crete I Love is a site that hopes to help people who are keen on ancient history of Crete and love to be on this island, to meet up for chating and and socialize to enjoy holidays in just that part of Greece. Crete I Love is also for me to show people what I am passionate in.
 
-[Picture of the site here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/home-ipad.png)
+![Picture of the site here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/home-ipad.png)
 
 ### Features
 
@@ -16,7 +16,7 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 - Navigation bar is identical in each page to allow for easy navigation.
 - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-[Picture of the navigation bar here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/navigation-bar.png):
+![Picture of the navigation bar here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/navigation-bar.png):
 
 ##### The landing images
 
@@ -24,7 +24,7 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 - This section introduces the user to Love Crete as my private website as a tourist and fan of a specific part of ancient history
 - The right landing picture animation should grab users attention
 
-[Picture of the landing images here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/landing-images.png)
+![Picture of the landing images here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/landing-images.png)
 
 ##### Meet Up Times Section
 
@@ -32,7 +32,7 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 - This section will allow the user to see exactly when the meetups will happen and where that will be located.
 - Hope the user will see here the value of filing up a form for lovers of Crete meetups.
 
-[Picture of the meet up times section here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-times.png)
+![Picture of the meet up times section here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-times.png)
 
 ##### The Footer
 
@@ -40,20 +40,20 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 - The links will open to a new tab to allow easy navigation for the user.
 - The footer is valuable to the user as it encourages them to keep connected via social media
 
-[Picture of footer here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/footer.png)
+![Picture of footer here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/footer.png)
 
 ### Gallery Page
 
 - The gallery will provide the user with supporting images to see what I'm interested in about Crete.
 
-[Picture of gallery here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/gallery-tablet.png)
+![Picture of gallery here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/gallery-tablet.png)
 
 ### The Meet Up Page
 
 - This page will allow the user to get signed up to Crete I Love to meet with the community.
 - The user will be asked to submit just their name and email address.
 
-[Picture of Meet Up page here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-tablet.png)
+![Picture of Meet Up page here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-tablet.png)
 
 ## Testing
 
@@ -87,7 +87,8 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 - Content
 
   - The text for the Home page Article Section was taken from [Minoan Magissa](https://minoanmagissa.com/2022/08/01/the-minoans-the-ancestors-of-modern-cretans/)
-  - The icons in the footer were taken from Font Awesome
+  - The icons in the footer and meetup times section were taken from Font Awesome
+  - Font Flamenco for the logo and h2 elements was taken from Google Fonts
   - The code for the footer was taken from Love Running by Code Institute
 
 - Media
