@@ -16,7 +16,7 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 - Navigation bar is identical in each page to allow for easy navigation.
 - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Picture of the navigation bar here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/navigation-bar.png):
+![Picture of the navigation bar here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/navigation-bar.png)
 
 ##### The landing images
 
@@ -80,7 +80,7 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
   - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-  - The live link can be found here - [Crete I Love]("")
+  - The live link can be found here - [Crete I Love]("https://ireneuszcierpisz.github.io/Crete-I-love/")
 
 ## Credits
 
@@ -90,6 +90,7 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
   - The icons in the footer and meetup times section were taken from Font Awesome
   - Font Flamenco for the logo and h2 elements was taken from Google Fonts
   - The code for the footer was taken from Love Running by Code Institute
+  - The video for the meetup times section from [YouTube](https://www.google.com/search?q=crete+phaistos+video&rlz=1C1CHBF_enIE922IE922&oq=crete+phaistos+video&aqs=chrome..69i57j33i160.12179j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:824e9d89,vid:FS2x8Y5uPu4)
 
 - Media
   - The images used on the home and meet up page are from my own archive
