@@ -123,11 +123,30 @@ h3 {
 }
 
 #img2-div {
-    height: 720px;
+    height: 724px;
     width: 100%;
+
     background-image: url("../images/02_ca1600BC-sword2.jpg");
     background-position: center;
     background-size: cover;
+
+    animation-name: sword-zoom;
+    animation-delay: 500ms;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* animation on home page */
+
+/* zoom effect for sword image */
+@keyframes sword-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 #img2-cover-text {
@@ -156,7 +175,7 @@ h3 {
 
 #meetup-dates {
     width: 70%;
-    height: 200px;
+    height: 203px;
     position: relative;
 
 }
@@ -164,7 +183,7 @@ h3 {
 #meetup-dates div {
     width: 33.2%;
     height: 100%;
-    float: right;
+    float: left;
     text-align: center;
     margin: 1px 0 0 0;
     padding-top: 20px;
@@ -179,6 +198,14 @@ h3 {
     background-image: url("../images/crete-phaistos3.JPG");
     background-size: cover;
     background-position: center;
+}
+
+#phaistos-box:hover {
+    border-radius: 5%;
+}
+
+#phaistos-box a {
+    text-decoration: none;
 }
 
 #kamilari-box {
