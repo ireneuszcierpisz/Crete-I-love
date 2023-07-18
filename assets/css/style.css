@@ -234,6 +234,12 @@ hr {
     position: relative;
     overflow: auto;
     clear: both;
+    background-color: aqua;
+}
+
+#article-section>h3 {
+    padding: 5px;
+    color: darkslategray;
 }
 
 article {
@@ -241,7 +247,7 @@ article {
     height: 280px;
     padding: 2%;
     text-align: center;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 0;
 }
 
