@@ -67,12 +67,11 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 
 - HTML
 
-  - No errors were returned when passing through the official W3C validator [W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-ireneuszcierpisz-crete-i-fuec8quyd6.us2.codeanyapp.com%2F).
-  - One warming refering to the article section: "Section lacks heading". But I decided not use heading in that case.
+  - No errors were returned when passing through the official W3C validator [W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2F).
 
 - CSS
 
-  - No errors were found when passing through the official [Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2F8000-ireneuszcierpisz-crete-i-fuec8quyd6.us2.codeanyapp.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+  - No errors were found when passing through the official [Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 ## Deployment
 
