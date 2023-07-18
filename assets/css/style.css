@@ -109,6 +109,10 @@ hr {
     background-color: rgba(176, 224, 230, 0.6);
 }
 
+#img1-cover-text h2,
+h3 {
+    text-align: center;
+}
 
 #img2-outer {
     height: 720px;
@@ -141,6 +145,11 @@ hr {
     position: absolute;
 
     background-color: rgba(176, 224, 230, 0.6);
+}
+
+#img2-cover-text h2,
+h3 {
+    text-align: center;
 }
 
 /*meetings dates section */
@@ -238,7 +247,7 @@ footer {
 
 .social-networks li {
     display: inline-block;
-    margin: 5%;
+    margin: 2% 5%;
     padding-left: 5%;
     padding-right: 5%;
     font-size: 200%;
@@ -274,7 +283,7 @@ footer {
 }
 
 .text-input {
-    background: transparent;
+    background: rgba(240, 248, 255, 0.7);
     color: rgb(41, 76, 116);
     width: 15rem;
     height: 2rem;
@@ -283,6 +292,15 @@ footer {
     margin: 5px 0 15px 0;
     border: 1px solid #fafafa;
     border-radius: 50%;
+}
+
+#holidays {
+    margin-right: 20%;
+    padding-left: 30px;
+}
+
+#fav-site {
+    padding-left: 40%;
 }
 
 #input-name {
@@ -348,10 +366,11 @@ fieldset>h2 {
 
 #pictures {
     column-count: 3;
-    column-gap: 0;
-    grid-row: auto;
-    row-gap: 0;
+    column-gap: 3px;
+    row-gap: 1px;
     clear: both;
+    background-image: url("../images/form-background.jpg");
+    background-size: cover;
 }
 
 #pictures img {
