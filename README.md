@@ -67,26 +67,48 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 
 #### HTML
 
-- No errors were returned when passing through the official W3C validator
+**No errors were returned when passing through the official W3C validator**
+
+- Links
 
   - [index.html by W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Findex.html).
   - [meet-up.html by W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fmeet-up.html)
   - [gallery.html by W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fgallery.html)
 
+- Screenshots
+
   ![index.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test-indexHTML.png)
+
+  ***
+
   ![meet-up.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test-meet-upHTML.png)
+
+  ***
+
   ![gallery.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test-galleryHTML.png)
+
+  ***
 
 #### CSS
 
-- No errors were found when passing through the official W3C validator
+**No errors were found when passing through the official W3C validator**
+
+- Links
 
   - [index.html by Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
   - [meet-up.html by Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fmeet-up.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
   - [gallery.html by Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
+- Screenshots
+
   ![index.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test-indexCSS.png)
+
+  ***
+
   ![meet-up.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test-meet-upCSS.png)
+
+  ***
+
   ![gallery.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test-galleryCSS.png)
 
 ## Deployment
