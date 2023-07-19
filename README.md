@@ -67,11 +67,28 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 
 - HTML
 
-  - No errors were returned when passing through the official W3C validator [W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2F).
+  - No errors were returned when passing through the official W3C validator
+
+    [index.html by W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Findex.html).
+    ![index.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-form.png)
+
+    [meet-up.html by W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fmeet-up.html)
+    ![meet-up.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-form.png)
+
+    [gallery.html by W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fgallery.html)
+    ![gallery.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-form.png)
 
 - CSS
 
-  - No errors were found when passing through the official [Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+  - No errors were found when passing through the official W3C validator
+    [index.html by Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+    ![index.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-form.png)
+
+    [meet-up.html by Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fmeet-up.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+    ![meet-up.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test 2023-07-19 meet-upCSS.png)
+
+    [gallery.html by Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+    ![gallery.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test 2023-07-19 galleryCSS.png)
 
 ## Deployment
 
