@@ -6,11 +6,11 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 
 ![Picture of the site here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/home-page.png)
 
-### Features
+## Features
 
-#### Home Page
+### Home Page
 
-##### Navigation Bar
+#### Navigation Bar
 
 - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Gallery and Meet Up page.
 - Navigation bar is identical in each page to allow for easy navigation.
@@ -18,7 +18,7 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 
 ![Picture of the navigation bar here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/navigation-bar.png)
 
-##### The landing images
+#### The landing images
 
 - The landing includes a photograph with text overlay to allow the user to see exactly what is this website about.
 - This section introduces the user to Love Crete as my private website as a tourist and fan of a specific part of ancient history
@@ -26,7 +26,7 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 
 ![Picture of the landing images here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/landing-images1.png)
 
-##### Meet Up Times Section
+#### Meet Up Times Section
 
 - The Meeting Up section will allow the users to find a place and time to meet people like themseves.
 - This section will allow the user to see exactly when the meetups will happen and where that will be located.
@@ -34,7 +34,7 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 
 ![Picture of the meet up times section here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-dates.png)
 
-##### The Footer
+#### The Footer
 
 - The footer section includes links to the relevant social media sites for lovers of Crete.
 - The links will open to a new tab to allow easy navigation for the user.
@@ -65,30 +65,29 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 
 ### Validator Testing
 
-- HTML
+#### HTML
 
-  - No errors were returned when passing through the official W3C validator
+- No errors were returned when passing through the official W3C validator
 
-    [index.html by W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Findex.html).
-    ![index.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-form.png)
+  - [index.html by W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Findex.html).
+  - [meet-up.html by W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fmeet-up.html)
+  - [gallery.html by W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fgallery.html)
 
-    [meet-up.html by W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fmeet-up.html)
-    ![meet-up.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-form.png)
+  ![index.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test-indexHTML.png)
+  ![meet-up.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test-meet-upHTML.png)
+  ![gallery.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test-galleryHTML.png)
 
-    [gallery.html by W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fgallery.html)
-    ![gallery.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-form.png)
+#### CSS
 
-- CSS
+- No errors were found when passing through the official W3C validator
 
-  - No errors were found when passing through the official W3C validator
-    [index.html by Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
-    ![index.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-form.png)
+  - [index.html by Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+  - [meet-up.html by Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fmeet-up.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+  - [gallery.html by Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
-    [meet-up.html by Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fmeet-up.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
-    ![meet-up.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test 2023-07-19 meet-upCSS.png)
-
-    [gallery.html by Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fireneuszcierpisz.github.io%2FCrete-I-love%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
-    ![gallery.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test 2023-07-19 galleryCSS.png)
+  ![index.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test-indexCSS.png)
+  ![meet-up.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test-meet-upCSS.png)
+  ![gallery.html](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/test-galleryCSS.png)
 
 ## Deployment
 
@@ -100,14 +99,15 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 
 ## Credits
 
-- Content
+### Content
 
-  - The text for the Home page Article Section was taken from [Minoan Magissa](https://minoanmagissa.com/2022/08/01/the-minoans-the-ancestors-of-modern-cretans/)
-  - The icons in the footer and meetup times section were taken from Font Awesome
-  - Font Flamenco for the logo and h2 elements was taken from Google Fonts
-  - The code for the footer was taken from Love Running by Code Institute
-  - The video for the meetup times section from [YouTube](https://www.google.com/search?q=crete+phaistos+video&rlz=1C1CHBF_enIE922IE922&oq=crete+phaistos+video&aqs=chrome..69i57j33i160.12179j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:824e9d89,vid:FS2x8Y5uPu4)
+- The text for the Home page Article Section was taken from [Minoan Magissa](https://minoanmagissa.com/2022/08/01/the-minoans-the-ancestors-of-modern-cretans/)
+- The icons in the footer and meetup times section were taken from Font Awesome
+- Font Flamenco for the logo and h2 elements was taken from Google Fonts
+- The code for the footer was taken from Love Running by Code Institute
+- The video for the meetup times section from [YouTube](https://www.google.com/search?q=crete+phaistos+video&rlz=1C1CHBF_enIE922IE922&oq=crete+phaistos+video&aqs=chrome..69i57j33i160.12179j0j7&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:824e9d89,vid:FS2x8Y5uPu4)
 
-- Media
-  - The images used on the home and meet up page are from my own archive
-  - The images used for the gallery page are from my own archive
+### Media
+
+- The images used on the home and meet up page are from my own archive
+- The images used for the gallery page are from my own archive
