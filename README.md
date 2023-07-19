@@ -4,7 +4,7 @@
 
 Crete I Love is a site that hopes to help people who are keen on ancient history of Crete and love to be on this island, to meet up for chating and and socialize to enjoy holidays in just that part of Greece. Crete I Love is also for me to show people what I am passionate in.
 
-![Picture of the site here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/home-ipad.png)
+![Picture of the site here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/home-page.png)
 
 ### Features
 
@@ -24,7 +24,7 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 - This section introduces the user to Love Crete as my private website as a tourist and fan of a specific part of ancient history
 - The right landing picture animation should grab users attention
 
-![Picture of the landing images here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/landing-images.png)
+![Picture of the landing images here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/landing-images1.png)
 
 ##### Meet Up Times Section
 
@@ -32,7 +32,7 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 - This section will allow the user to see exactly when the meetups will happen and where that will be located.
 - Hope the user will see here the value of filing up a form for lovers of Crete meetups.
 
-![Picture of the meet up times section here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-times.png)
+![Picture of the meet up times section here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-dates.png)
 
 ##### The Footer
 
@@ -46,14 +46,14 @@ Crete I Love is a site that hopes to help people who are keen on ancient history
 
 - The gallery will provide the user with supporting images to see what I'm interested in about Crete.
 
-![Picture of gallery here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/gallery-tablet.png)
+![Picture of gallery here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/gallery.png)
 
 ### The Meet Up Page
 
 - This page will allow the user to get signed up to Crete I Love to meet with the community.
 - The user will be asked to submit just their name and email address.
 
-![Picture of Meet Up page here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-tablet.png)
+![Picture of Meet Up page here](https://github.com/ireneuszcierpisz/Crete-I-love/blob/main/media/meetup-form.png)
 
 ## Testing
 
